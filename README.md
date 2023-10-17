@@ -13,7 +13,7 @@ Para poder usar Zinkee CMD correctamente debes seguir los siguientes pasos:
 2. Debes clonar el proyecto Zinkee CMD en la ruta que quieras de tu Ordenador (Si tienes Git puedes usar el comando "git clone https://github.com/jedahee/ZinkeeCMD.git")
 
 3. Ahora, debemos ejecutar el siguiente comando dentro de la carpeta clonada (dentro de tu_ruta_de_window/Zinkee CMD/ ):
-   - **pip install -r requirements.txt**
+   - **pip install -r requirements.txt | Ejecutar como administrador**
 
 4. Una vez instalado todos los requerimientos, debemos visualizar una carpeta llamada 'chromedriver', en esta carpeta debe ir el driver de chrome (chromedriver.exe) para que el Web Scraping funcione.
    La versión del chromedriver.exe puede variar dependiendo de la versión de Chrome que tengamos.
