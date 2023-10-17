@@ -35,9 +35,9 @@ try:
     from colored import fg
 except ImportError:
     print("""
-    Debes ejecutar el siguiente comando antes de ejecutar """+primary_color+"""Zinkee CMD:"""+info_color+"""
+    Debes ejecutar el siguiente comando antes de ejecutar Zinkee CMD:
         - pip install -r requirements.txt
-    """ + light_color)
+    """)
 # * ------- *
 
 
