@@ -51,6 +51,7 @@ def init_chrome(): # ? Init chrome driver for scrapping
     options.add_experimental_option("detach", True) # ? I dont know who do that exactly but fix a error of chrome
     options.add_argument("--window-size=1920,1080") # ? Window size
     options.add_argument("--disable-web-security")
+    
     # ? Disable notificatiosn of chrome
     options.add_argument("--disable-extensions")
     options.add_argument("--disable-notifications")
@@ -959,15 +960,15 @@ def check_settings(): # ? Check if settings in config object have errors
 
     # ? Check the empty value options and asks the user for new values
     if EMAIL == "" or EMAIL == None:
-        email_val = sanitize_text(array_allowed=[], label="\nIntroduce tu email")
+        email_val = sanitize_text(array_allowed=[], label="\nIntroduce tu email de Zinkee")
         config.set_email(email_val)
     
     if PASSW == "" or PASSW == None:
-        passw_val = sanitize_text(array_allowed=[], label="\nIntroduce tu contraseña", isPassword=True)
+        passw_val = sanitize_text(array_allowed=[], label="\nIntroduce tu contraseña de Zinkee", isPassword=True)
         config.set_passw(passw_val)
     
     if SAVE_COOKIES == -1 or SAVE_COOKIES == "" or SAVE_COOKIES == None:
-        save_cookies_val = sanitize_text(array_allowed=['si', 'no'], label="\n¿Guardar cookies? (si/no)")
+        save_cookies_val = sanitize_text(array_allowed=['si', 'no'], label="\n¿Guardar cookies?")
         config.set_save_cookies(save_cookies_val)
 
     if TIME_ENTRY_MORNING == "" or TIME_ENTRY_MORNING == None:
@@ -1009,10 +1010,10 @@ def update_config(): # ? Update config object and save
 
         # ? Setting new values for config options
         if (op == 1):
-            email_val = sanitize_text(array_allowed=[], label="\nIntroduce tu email")
+            email_val = sanitize_text(array_allowed=[], label="\nIntroduce tu email de Zinkee")
             config.set_email(email_val)
         if (op == 2):
-            passw_val = sanitize_text(array_allowed=[], label="\nIntroduce tu contraseña", isPassword=True)
+            passw_val = sanitize_text(array_allowed=[], label="\nIntroduce tu contraseña de Zinkee", isPassword=True)
             config.set_passw(passw_val)
         if (op == 3):
             save_cookies_val = sanitize_text(array_allowed=['si', 'no'], label="\n¿Guardar cookies?")
