@@ -4,18 +4,6 @@ Versión de Zinkee en CMD para desarrolladores. Una nueva forma sencilla de gest
 ![image](https://github.com/jedahee/ZinkeeCMD/assets/56111700/1e218c29-be5c-4740-8376-1a42a57e0ac8)
 
 
-## Documentación
-Zinkee CMD se encarga de ofrecer útiles funcionalidades para aplicar en Zinkee a través de Web Scraping, algunas de estas funcionalidades son:
-
-1. **Listar registros**: Puedes listar tus últimos registros añadidos, o listar los registros a través de un filtro
-2. **Añadir registro**: Puedes añadir un registro en Zinkee de una forma más sencilla a través de esta opción
-3. **Añadir día de registros automaticamente**: En Zinkee CMD hay opciones de configuración, una de estas son las horas en las que trabajas y descansas. Pues, esta opción añade los registros automaticamente hasta completar el día (solo debes introducir el nombre de la tarea y el proyecto), fijandose en las horas añadidas a la configuración
-4. **Copiar registros de un día añadido a lo largo de la semana**: Lista los registros de los últimos 7 días, ordenados por día, seleccionamos un día de los mostrados y Zinkee CMD copiará los registros de ese día seleccionada y los añadirá al día de hoy.
-5. **Configurar opciones**: Puedes configurar diferentes opciones de Zinkee CMD (Nombre de usuario de Zinkee, Hora de descanso, Hora de salida...)
-
-(Zinkee CMD inicia sesión automáticamente usando las credenciales guardadas en tu configuración)
-
-
 ## Pasos a seguir para usar Zinkee CMD
 
 Para poder usar Zinkee CMD correctamente debes seguir los siguientes pasos:
@@ -44,6 +32,18 @@ Para poder usar Zinkee CMD correctamente debes seguir los siguientes pasos:
 Una vez hecho todos los pasos,
 
 ¡Puedes usar Zinkee CMD!
+
+
+## Documentación
+Zinkee CMD se encarga de ofrecer útiles funcionalidades para aplicar en Zinkee a través de Web Scraping, algunas de estas funcionalidades son:
+
+1. **Listar registros**: Puedes listar tus últimos registros añadidos, o listar los registros a través de un filtro
+2. **Añadir registro**: Puedes añadir un registro en Zinkee de una forma más sencilla a través de esta opción
+3. **Añadir día de registros automaticamente**: En Zinkee CMD hay opciones de configuración, una de estas son las horas en las que trabajas y descansas. Pues, esta opción añade los registros automaticamente hasta completar el día (solo debes introducir el nombre de la tarea y el proyecto), fijandose en las horas añadidas a la configuración
+4. **Copiar registros de un día añadido a lo largo de la semana**: Lista los registros de los últimos 7 días, ordenados por día, seleccionamos un día de los mostrados y Zinkee CMD copiará los registros de ese día seleccionada y los añadirá al día de hoy.
+5. **Configurar opciones**: Puedes configurar diferentes opciones de Zinkee CMD (Nombre de usuario de Zinkee, Hora de descanso, Hora de salida...)
+
+(Zinkee CMD inicia sesión automáticamente usando las credenciales guardadas en tu configuración)
 
 
 ## Recomendaciones
