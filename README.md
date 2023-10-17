@@ -24,9 +24,9 @@ Para poder usar Zinkee CMD correctamente debes seguir los siguientes pasos:
 4. Una vez instalado todos los requerimientos, debemos visualizar una carpeta llamada 'chromedriver', en esta carpeta debe ir el driver de chrome (chromedriver.exe) para que el Web Scraping funcione.
    La versión del chromedriver.exe puede variar dependiendo de la versión de Chrome que tengamos.
 
-   Si tienes la versión de Chrome 115 o una más nueva debes pulsar sobre (el siguiente enlace)[https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/118.0.5993.70/win64/chromedriver-win64.zip] para descargar Chromedriver.exe
+   Si tienes la versión de Chrome 115 o una más nueva debes pulsar sobre [el siguiente enlace](https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/118.0.5993.70/win64/chromedriver-win64.zip) para descargar Chromedriver.exe
   
-   Si tienes una versión de Chrome menor a la 115 puedes descargar Chromedriver.exe desde (el siguiente enlace)[https://chromedriver.chromium.org/downloads]
+   Si tienes una versión de Chrome menor a la 115 puedes descargar Chromedriver.exe desde [el siguiente enlace](https://chromedriver.chromium.org/downloads)
    ![image](https://github.com/jedahee/ZinkeeCMD/assets/56111700/deb8d77b-047d-4bc1-b0bf-b9571dbd3af8)
 
    Ahora, una vez tengamos descargado y ubicado chromdriver.exe, debemos moverlo dentro de la carpeta chromedriver/ (Quedando así "tu_ruta_de_window/Zinkee CMD/chromedriver/chromedriver.exe").
