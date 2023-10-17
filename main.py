@@ -250,6 +250,8 @@ def add_new_register(driver_z, wait, values): # ? Add new register with your dat
         print(error_color+"ERROR:"+light_color+" Algo salió mal. Comprueba tu conexión a internet y vuelve a intentarlo más tarde")
         return "ERROR"
 
+    time.sleep(1.2)
+
     # ? Getting values separately
     project_value = values[0].strip()
     name_task_value = values[1].strip()
