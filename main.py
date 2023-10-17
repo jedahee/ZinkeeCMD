@@ -235,21 +235,8 @@ def open_track(driver_z, wait): # ? Open all tracks Page in Zinkee
 
 def add_new_register(driver_z, wait, values): # ? Add new register with your data
     print("Añandiendo registro...", end='')
-    time.sleep(1.5)
 
-    # ? Getting values separately
-    project_value = values[0].strip()
-    name_task_value = values[1].strip()
-    start_time_value = values[2].strip().replace(":", "")
-    end_time_value = values[3].strip().replace(":", "")
-    
-    # ? Check if details value exists
-    if len(values) >= 5:
-        details_value = values[4].strip()
-    else:
-        details_value = ""
-
-    time.sleep(1)
+    time.sleep(1.2)
 
     # ? Getting btn to add register and clicking
     try:
@@ -263,7 +250,17 @@ def add_new_register(driver_z, wait, values): # ? Add new register with your dat
         print(error_color+"ERROR:"+light_color+" Algo salió mal. Comprueba tu conexión a internet y vuelve a intentarlo más tarde")
         return "ERROR"
 
-    time.sleep(1.2)
+    # ? Getting values separately
+    project_value = values[0].strip()
+    name_task_value = values[1].strip()
+    start_time_value = values[2].strip().replace(":", "")
+    end_time_value = values[3].strip().replace(":", "")
+    
+    # ? Check if details value exists
+    if len(values) >= 5:
+        details_value = values[4].strip()
+    else:
+        details_value = ""
 
     # ? Getting select to add project and double clicking
     try:
@@ -279,7 +276,7 @@ def add_new_register(driver_z, wait, values): # ? Add new register with your dat
         print(error_color+"ERROR:"+light_color+" Algo salió mal. Comprueba tu conexión a internet y vuelve a intentarlo más tarde")
         return "ERROR"
 
-    time.sleep(1)
+    time.sleep(1.2)
 
     # ? Getting select to add project and selecting project
     try:
