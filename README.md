@@ -1,7 +1,7 @@
 # Zinkee CMD
 Versión de Zinkee en CMD para desarrolladores. Una nueva forma sencilla de gestionar Zinkee  a través de la consola de Windows.
 
-![image](https://github.com/jedahee/ZinkeeCMD/assets/56111700/1e218c29-be5c-4740-8376-1a42a57e0ac8)
+![image](https://github.com/jedahee/ZinkeeCMD/assets/56111700/e947c6d3-21c8-4ce1-9f1c-d7fabe79fcc4)
 
 
 ## Pasos a seguir para usar Zinkee CMD
