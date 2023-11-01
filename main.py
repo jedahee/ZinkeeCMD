@@ -594,7 +594,7 @@ def show_menu(): # ? Show menu options to select one
     print(light_color)
     
     print("+-------------------+")
-    print("| Autor:"+primary_color+" Pastorcito"+light_color+" |")
+    print("| Autor:"+primary_color+" jedahee"+light_color+" |")
     print("+-------------------+\n")
     print(info_color+"[1]"+light_color+" -> Listar registros")
     print(info_color+"[2]"+light_color+" -> Añadir registro")
